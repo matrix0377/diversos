@@ -1,4 +1,5 @@
 ''' Requests officially supports Python 2.7 & 3.6'''
+''' Rodou com Python3.9.9 64-bit'''
 
 import requests
 
