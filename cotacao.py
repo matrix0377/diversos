@@ -1,6 +1,9 @@
 ''' Requests officially supports Python 2.7 & 3.6'''
 
 import requests
+import os
+
+os.system('cls')
 
 
 def pegar_cotacoes():
@@ -17,7 +20,7 @@ def pegar_cotacoes():
     Euro:  {cotacao_euro}
     BTC:   {cotacao_btc}'''
 
-    print(texto)
+    print(texto, '\n')
 
 pegar_cotacoes()
 

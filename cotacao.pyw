@@ -9,9 +9,9 @@ def pegar_cotacoes():
 
     requisicao_dic = requisicao.json()
 
-    cotacao_dolar = requisicao_dic['USD']['bid']
-    cotacao_euro = requisicao_dic['EUR']['bid']
-    cotacao_btc = requisicao_dic['BTC']['bid']
+    cotacao_dolar = requisicao_dic['USDBRL']['bid']
+    cotacao_euro = requisicao_dic['EURBRL']['bid']
+    cotacao_btc = requisicao_dic['BTCBRL']['bid']
 
     texto = f'''
     Dólar: {cotacao_dolar}
