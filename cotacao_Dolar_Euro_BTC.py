@@ -22,4 +22,3 @@ def pegar_cotacoes():
 
 pegar_cotacoes()
 
-
